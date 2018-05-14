@@ -1,0 +1,68 @@
+// Файл для медиазапросов
+@import "vars";
+
+@media screen and (max-width:768px) {
+	html{
+		font-size: 16px;
+		line-height: 1.18;
+	}
+
+	.container, .our-team__gallery, .recent-posts__gallery{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.header .container{
+		flex-direction: row;
+	}
+
+	.menu__bars{
+		display: block;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	.slider__content{
+		flex-direction: column;
+	}
+
+	.slider_img{
+		margin-top: $gutter;
+	}
+
+	.slider__paginator-group{
+	 margin-top: $gutter;
+	}
+	.services .card{
+		margin-top: $gutter*2;
+	}
+
+	.services .card:nth-child(1){
+		margin: 0;
+	}
+
+	.information__img{
+		display: none;
+	}
+
+	.form{
+		width: 80%;
+	}
+
+	.footer .text{
+		margin-top: $gutter*2;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:425px) {
+	.title{
+		font-size: 2rem;
+	}
+
+	.header .title{
+		display: none;
+	}
+}

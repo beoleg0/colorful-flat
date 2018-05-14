@@ -1,0 +1,32 @@
+// Файл для примесей, плейсхолдеров
+@import "_misc/vars";
+
+@mixin link-color($txt, $bg: none) {
+	color: $txt;
+	background: $bg;
+}
+
+@mixin border-btn($border, $bg){
+	border: 4px solid $border;
+	background: $bg;
+}
+
+%text-align_center{
+	text-align: center;
+}
+
+%display-flex{
+	display: flex;
+}
+
+%flex-direction_column{
+	flex-direction: column;
+}
+
+%align-items_center{
+	align-items: center;
+}
+
+%flex-wrap_wrap{
+	flex-wrap: wrap;
+}
